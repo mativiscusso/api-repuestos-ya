@@ -2,24 +2,24 @@ require("dotenv").config();
 
 module.exports = {
     development: {
-        username: process.env.USER_DB,
-        password: process.env.PASS_DB,
-        database: process.env.NAME_DB,
-        host: process.env.HOST_DB,
+        username: "repuestero",
+        password: "BzYDXme4B2XypeyC9RtF",
+        database: "repuestos_ya_pruebas",
+        host: "repuestosya.cpss27uu7m3z.us-east-1.rds.amazonaws.com",
         dialect: "mysql",
     },
     test: {
-        username: process.env.USER_DB,
-        password: process.env.PASS_DB,
-        database: process.env.NAME_DB,
-        host: process.env.HOST_DB,
+        username: "repuestero",
+        password: "BzYDXme4B2XypeyC9RtF",
+        database: "repuestos_ya_pruebas",
+        host: "repuestosya.cpss27uu7m3z.us-east-1.rds.amazonaws.com",
         dialect: "mysql",
     },
     production: {
-        username: process.env.USER_DB,
-        password: process.env.PASS_DB,
-        database: process.env.NAME_DB,
-        host: process.env.HOST_DB,
+        username: "repuestero",
+        password: "BzYDXme4B2XypeyC9RtF",
+        database: "repuestos_ya_pruebas",
+        host: "repuestosya.cpss27uu7m3z.us-east-1.rds.amazonaws.com",
         dialect: "mysql",
     },
 };
